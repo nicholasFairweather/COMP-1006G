@@ -1,0 +1,159 @@
+/* Basic Typography */
+h1, h2, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+p, a, li, input, th, td {
+  font-size: 1.1em;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+/* Layout */
+.row {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Masthead */
+.masthead {
+  height: 70vh;
+  background: linear-gradient(135deg, #3e5170, #5c3c36);
+}
+.masthead div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.masthead div h1 {
+  color: #f4f4f4;
+  font-size: 2.8em;
+  text-align: center;
+}
+
+/* Form Styling */
+.formRow div {
+  padding: 4%;
+}
+.formRow div form {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Background Colors */
+.formRow div:nth-child(1) {
+  background-color: #6d4c41;
+  color: #fff;
+}
+.formRow div:nth-child(2) {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+/* Login Masthead */
+.loginMasthead {
+  height: 45vh;
+  background-color: #0056b3;
+  color: white;
+}
+
+.loginMasthead h3{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+/* Login Row */
+.loginRow {
+  padding: 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Success and Background Style */
+.successRow div,
+.loginMasthead div {
+  padding: 4%;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 6px;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  padding: 4%;
+  background-color: #2c2c2c;
+  color: #fff;
+  text-align: center;
+}
+
+footer p{
+  margin: 20px;
+  color: rgb(203, 200, 200);
+}
+
+
+
+
+
+/*it aont let me make a new css page so just have to put my login page css here*/
+
+/* Login Page Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaeaea;
+}
+
+/* Main Login Section */
+.loginRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.col {
+  background: white;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+/* Form Controls */
+.formControl {
+  width: 100%;
+  padding: 12px;
+  margin: 12px 0;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background-color: #003f80;
+}
